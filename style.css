@@ -1,0 +1,112 @@
+body {
+  background-color :#ECF9FF;
+  font-family :Montserrat;
+  color : #383D3D;
+  font-size :medium;
+  line-height :normal;
+  font-weight: 300;
+  text-align: center;
+}
+
+ .container {
+    width: 500px;
+    margin: 10px auto;
+    box-shadow: 0 10px 20px;
+}
+
+/* .card {
+  border: 1px solid rgb(252, 255, 254);
+  border-radius: 4px;
+  padding: 40px;
+  background: white;
+  margin: 20px, 10px;
+  margin-top: 10px;
+  text-align: center;
+
+} */
+
+div {
+  border: 1px solid #ECF9FF;
+  border-radius: 30px;
+  padding: 30px;
+  background: #FFFBEB;
+  margin: 10px, 10px, 10px, 10px;
+  margin-top: 10px;
+  box-shadow: 0 10px 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+h1{
+  color :#3A98B9;
+  font-family:Montserrat;
+  text-align: center;
+}
+
+h2{
+  color :#F8CBA6;
+  font-family:Montserrat;
+  text-align: center;
+  padding-left: 0px;
+
+}
+
+p{
+  text-align: justify;}
+
+a{
+  text-decoration: none;
+  text-align : center;
+  color: #3A98B9;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.cta{
+  text-align : center;
+  background-color: #3A98B9;
+  color: #F8CBA6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px, 0px;
+}
+
+#image-profile{
+  border-radius: 50%;
+  width: 25%;
+  box-shadow: 0 10px 30px;
+  text-align: center;
+}
+
+.fab{
+  color: #3A98B9;
+}
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
